@@ -1,8 +1,8 @@
 # This Project is about learning GIT and Python
 
 >> Git and Github
-Often used commands in GIT Bash
-Create a new repository locally in Git
+         Often used commands in GIT Bash
+  Create a new repository locally in Git
 >>>>git init //initialize the repository
 
 Connect the remote github to local repository git
