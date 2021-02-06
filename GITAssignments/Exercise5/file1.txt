@@ -1,0 +1,13 @@
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
+}                      
+
+new saved line for stash command 
+
+public class python{
+  public static void main(string args[]){
+  system.out.println("hello python")
+  }
+  }
