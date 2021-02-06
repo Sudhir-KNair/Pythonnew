@@ -1,7 +1,9 @@
-# This Project is about learning GIT and Python
+# Learning GIT and Python
 
 >> Git and Github
+         
          Often used commands in GIT Bash
+  
   Create a new repository locally in Git
 >>>>git init //initialize the repository
 
