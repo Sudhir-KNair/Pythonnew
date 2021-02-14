@@ -71,13 +71,13 @@ UserAccountName = 'Sudhir'
 userAccountId = 1234
 
 #Snakecase
-user_email = sudhir@gmail.com
+user_email = "sudhir@gmail.com"
 
 # 8. If one data type value is assigned to ‘a’ variable and then a different data type value is assigned to ‘a’
 # again. Will it change the value? If Yes then Why?
 
 a = 10
-a = "string"
+a = "astring"
 print(a)
 
 # Yes, it will print the latest value assigned to the variable
