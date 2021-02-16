@@ -109,8 +109,7 @@ def splitevenodd(A):
          oddlist.append(i)
    print("Even lists:", evenlist) 
    print("Odd lists:", oddlist) 
-  
-# Driver Code 
+
 A=list()
 print("Enter a number from 1 to 50: ")
 for i in range(5):
