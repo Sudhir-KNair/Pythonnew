@@ -124,7 +124,7 @@ splitevenodd(A)
 
 inp_str = "12abcbacbaba344ab"
 outpt = {x : inp_str.count(x) for x in set(inp_str)}
-print ("Occurrence of all characters in GeeksforGeeks is :\n "+ str(outpt))  
+print ("Occurence of Specific character :\n "+ str(outpt))  
 
 
 # 10. Generate and print another tuple whose values are even numbers in the given tuple
