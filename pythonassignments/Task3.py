@@ -1,16 +1,6 @@
 # 1. Create a list of 10 elements of four different data types like int, string, complex and float.
 
-intlist = [1, 2, 4, 4, 3, 3, 3, 6, 5, 9] 
-print(type(intlist))
-
-stringlist = ["a","b","c","d","e","f","g","h","i","j"]
-print(type(stringlist))
-
-complexlist = [2+3j,4+6j,5+7j]
-print(type(complexlist))
-
-floatlist = [0.1,2.1,4.1,3.1,5.1]
-print(type(floatlist))
+a=[4,"abc",3.4,3.5j,6,"bcd",10,6.7]
 
 
 # 2. Create a list of size 5 and execute the slicing structure
@@ -29,14 +19,17 @@ def multiplylist(multlist):
 list1 = [2,3,4]
 print(multiplylist(list1))
 
-def sumlist(slist):
-    result = 0
-    for x in slist:
-        result = result + x
-    return result
+# def sumlist(slist):
+#     result = 0
+#     for x in slist:
+#         result = result + x
+#     return result
+
+# list2 = [2,3,4]
+# print(sumlist(list2))
 
 list2 = [2,3,4]
-print(sumlist(list2))
+print(sum(list2))
 
 # 4. Find the largest and smallest number from a given list.
 
@@ -56,10 +49,9 @@ print(num)
 
 def printValues():
 	l = list()
-	for i in range(1,30):
+	for i in range(1,31):
 		l.append(i**2)
-	print(l[:5])
-	print(l[-5:])
+	print(l[:5]+l[-5:])
 
 printValues()
 

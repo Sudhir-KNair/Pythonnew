@@ -12,11 +12,15 @@ print(type(z))
 # 2. Create a variable of type complex and swap it with another variable of type integer.
 
 a=3+9j
-print(a)
+b=5
 print(type(a))
-print("we cannot convert a complex number into an int")
+c=a
+a=b
+b=c
+print("value fter swapping :", a)
 
-# 3.Swap two numbers using a third variable and do the same task without using any third variable.
+# 3.Swap two numbers using a third variable and do t
+# he same task without using any third variable.
 
 # Swapping values with Temp Variables
 a = 10
@@ -41,6 +45,11 @@ x = input("Enter 2 digit number for x: ")
 y = input("Enter 2 digit number for y: ")
 print("value of x,y :",x,",",y)
 
+# # Python 2
+
+# txt = raw_input("Type something to test this out: ")
+# print "You typed :", txt
+
 # 5. Write a program to complete the task given below:
 # Ask users to enter any 2 numbers in between 1-10 , add the two numbers and keep the sum in
 # another variable called z. Add 30 to z and store the output in variable result and print result as the
@@ -48,8 +57,8 @@ print("value of x,y :",x,",",y)
 
 a = int(input("Enter any number from 1-10: "))
 b = int(input("Enter any number from 1-10: "))
-c= 30+(a+b)
-print('Value of c : ',c)
+z= 30+(a+b)
+print('Value of z : ',z)
 
 # 6. Write a program to check the data type of the entered values.
 # HINT: Printed output should say - The data type of the input value is : int/float/string/etc
@@ -72,6 +81,9 @@ userAccountId = 1234
 
 #Snakecase
 user_email = "sudhir@gmail.com"
+
+#Uppercase
+MYVAR = "John"
 
 # 8. If one data type value is assigned to ‘a’ variable and then a different data type value is assigned to ‘a’
 # again. Will it change the value? If Yes then Why?

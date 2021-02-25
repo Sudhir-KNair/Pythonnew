@@ -37,18 +37,18 @@ print(a)
 
 for i in range(1,100):
     if i%3==0 and i%2==0:
-        print (i)
+        print(i)
 
 # 5. Write a program in Python to reverse a string and print only the vowel alphabet if it exists in the
 # string with their index.
 
-x = "consultadd" [::-1]
+x = "consUltadd"[::-1]
 res = []
 for i in x:
-    if i in "aeiou":
+    if i in "aeiou AEIOU":
         print(i)
 for a in range(len(x)):
-    if x[a] in "aeiou":
+    if x[a] in "aeiou AEIOU":
         res.append(a)
 print("Index positions: "+ str(res))
 

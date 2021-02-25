@@ -135,8 +135,7 @@ for i in range(2000,3200):
 # Expected output: 0 1 2 4 5
 # Note: Use ‘continue’ statement
     
-for i in range(0,6):
-    i+1
+for i in range(0,7):
     if i==3 or i==6:
         continue
     print(i)
@@ -146,7 +145,7 @@ for i in range(0,6):
 # Sample input: consul72
 # Expected output: Letters 6 Digits 2
 
-ui = str(input("Please enter here: "))
+ui = input("Please enter here: ")
 d=0
 l=0
 for i in ui:
@@ -162,11 +161,12 @@ print("Letters:",d, "Digits :",l)
 # Write a program such that it asks users to “guess the lucky number”. If the correct number is
 # guessed the program stops, otherwise it continues forever.
 
+
 x=int(input("Guess the Lucky number: "))
-if x==6:
-    print("you are winner")
-else:
-    print("not lucky")
+
+while x!=8:
+    print("you are not winner")
+    x=int(input("Guess the Lucky number: "))
 
 # Modify the program so that it asks users whether they want to guess again each time. Use two
 # variables, ‘number’ for the number and ‘answer’ for the answer to the question whether they want
@@ -181,7 +181,7 @@ while number !=5 and answer != "no":
     number = int(input("Guess the Lucky number: "))
     if number !=5:
         print("You are not lucky")
-        answer = str(input("Would you like to guess again?:yes/no "))
+        answer = input("Would you like to guess again?:yes/no ")
 
     
 # 10. Write a program that asks five times to guess the lucky number. Use a while loop and a counter,
