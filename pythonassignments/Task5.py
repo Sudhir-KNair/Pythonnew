@@ -1,10 +1,10 @@
 # 1. Write a program in Python to allow the error of syntax to be handled using exception handling.
 # HINT: Use SyntaxError
 
-# try:
-#     eval('x === x')
-# except SyntaxError:
-#     print("we cannot do that")
+try:
+    eval('x === x')
+except SyntaxError:
+    print("we cannot do that")
 
 # # Normally, the interpreter parses the entire file before executing any of it, so it detects the syntax error before the try statement is executed.
 # # We can  catch SyntaxError if it's thrown out of an eval or import operation.
@@ -20,14 +20,6 @@
 
 # 3. Write a program to handle an error if the user entered a number more than four digits it should
 # return “The length is too short/long !!! Please provide only four digits”
-
-# while True:
-#     n = input("Enter your four digit number: ")
-#     if len(n)==4:
-#         try:
-#             print("Success")
-#         except ValueError:
-#             print("No success")
 
 
 def fourdigit_code():
